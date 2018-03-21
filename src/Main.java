@@ -23,15 +23,15 @@ public class Main {
 
     public static void main(String[] args) {
         String dirname;
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Type the path: ");
-        dirname = scanner.nextLine();
-        System.out.println("txt-files:");
         /*if(args.length !=0) {
             dirname = args[0];
         } else {
             dirname = "E:\\Books\\Programming";
         }*/
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Type the path: ");
+        dirname = scanner.nextLine();
+        System.out.println("txt-files:");
         searchTXT(dirname);
     }
 }
